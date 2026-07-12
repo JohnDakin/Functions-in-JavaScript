@@ -72,7 +72,7 @@ function outer(){
 
 //Function Scope
 //A function can access all the variables inside the scope it is defined
-//A variable definde inside the function scope cannot be accessed outside of it
+//A variable defined inside the function scope cannot be accessed outside of it
 
 function doSomething(){
   let x = 10;
@@ -164,9 +164,10 @@ const fn = returnFn();
 console.log(fn());
 
 //Example of HOF
-[1,2, 3].filter(function(element){
+const num = [1,2, 3].filter(function(element){
   return element > 2;
-})
+});
+console.log(num);
 
 //Pure Function - A function that produces the same output for the same input
 //Helps in predictability
@@ -190,7 +191,7 @@ greeting = 'Hola';
 console.log(sayGreeting("John"));
 
 
-//IIFE - Immediately Invoked Function Expression
+//IIFE - Imediately Invoked Function Expression
 //Function expression that the code inside the function get executed imediately after it has been defined
 
 function x(){
@@ -223,7 +224,7 @@ function x(){
 
 
 //Recursion - A function that reffer or calls itself
-// when you use recursion makwe sure you hava a base condition
+// when you use recursion make sure you hava a base condition
 //base condition - under which condition you have to stop recursion
 
 /*
