@@ -9,7 +9,7 @@ console.log(multiply(1, 2));
 console.log(multiply(3, 4));
 
 //Impure Functions produces different output for same input thus it is unpredictable
-// Function is considered impure if it changes something outside the function thus it introduces side effwects
+// Function is considered impure if it changes something outside the function thus it introduces side effects
 
 //Impure Functions
 function randomize(numberOne, numbers){

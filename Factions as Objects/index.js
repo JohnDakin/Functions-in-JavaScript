@@ -33,7 +33,7 @@ console.log(exmp());
 */
 
 //Functions in JavaScript are also first class citizens
-// ie Functions i  JS === Objects
+// ie Functions in  JS === Objects
 /*
 function add(a, b){
   console.log(a + b);
